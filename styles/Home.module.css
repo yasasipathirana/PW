@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url('/background.jpg'); /* Background image path */
+  background-size: cover;
+  background-position: center;
+}
+
+.imageContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textContainer {
+  flex: 1;
+  color: #fff;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.textContainer p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: #ffc107;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
