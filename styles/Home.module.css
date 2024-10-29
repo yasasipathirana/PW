@@ -36,14 +36,14 @@
   margin-top: 20px;
 }
 
-nav a {
+.nav a {
   color: #ffc107;
   font-weight: bold;
   text-decoration: none;
   margin: 0 10px;
 }
 
-nav a:hover {
+.nav a:hover {
   text-decoration: underline;
 }
 
